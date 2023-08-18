@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        hr.solid {
+            border-top: 3px solid #121212;
+        }
+        
+        hr.dashed {
+            border-top: 3px dashed #050505;
+        }
+        
+        div.detail i {
+            color: rgb(255, 150, 4)
+        }
+        
+        div.btn button {
+            background-color: rgb(255, 150, 4)
+        }
+        
+        div.total {
+            color: rgb(255, 150, 4);
+        }
+    </style>
+</head>
+
+<body class="bg-body-secondary">
+    <!-- navbar -->
+
+    <nav class="navbar  navbar-expand-md navbar-expand-lg bg-white shadow">
+        <div class="container-fluid mx-5">
+            <a class="navbar-brand ms-5 text-warning" href="#">
+                <h1 class="" style="color:	 rgb(255, 150, 4)">iBooking</h1>
+                <div class="d-flex">
+                    <div class="navbar-nav me-5">
+                        <a class="nav-link active me-5  fs-6" aria-current="page" href="#" style="color:rgb(255, 150, 4)">Home</a>
+                        <a class="nav-link me-3 fs-6" href="#">Contact Us</a>
+                        <a class="nav-link me-3 fs-6" href="#">Hotel Partners</a>
+                        <a class="nav-link me-3 fs-6" href="#">Log in</a>
+                        <a class="nav-link me-3 fs-6" href="#"><img src="./images/flag-400.png" alt="" style="width: 20px;">MM</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+    <!-- hotel images -->
+    <div class="container mx-5 mb-3 mt-3">
+        <div class="card mb-3 mt-3" style="max-width: 2500px;">
+            <div class="row g-lg-0 g-0 d-flex">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="./images/Arthawka-Hotel (1).jpg" class="rounded float-start m-3" alt="..." style="width: 450px;height: 440px;">
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="row row-cols-1 row-cols-md-2 g-2">
+                        <div class="col">
+                            <img src="./images/401159_15070716030031810209.jpg" class="card-img-top rounded m-3 " alt="..." style="width: 200px;height: 200px;">
+                        </div>
+                        <div class="col">
+                            <img src="./images/relax-with-cocktail-pool.jpg" class="card-img-top rounded m-3" alt="..." style="width: 200px;height: 200px;">
+                        </div>
+                        <div class="col">
+                            <img src="./images/images.jpg" class="card-img-top rounded m-3" alt="..." style="width: 200px;height: 200px;">
+                        </div>
+                        <div class="col">
+                            <img src="./images/2715d62b_z.jpg" class="card-img-top  rounded m-3 " alt="..." style="width: 200px;height: 200px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hotel detail -->
+    <div class="container mx-5 mb-3 mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="fw-bold">အသောကဟိုတယ်</h2>
+                <p class="fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis alias laudantium minima! Magnam obcaecati tempore voluptates earum eius quo praesentium, corporis debitis, sapiente neque cupiditate nulla, accusantium quas veniam ut!</p>
+                <div class="text mt-5">
+                    <h3 class="fw-bold">ဝန်ဆောင်မူများ</h3>
+                </div>
+                <div class="row detail">
+                    <div class="col-4">
+                        <div class="mt-3">
+                            <i class="fa-solid fa-mug-hot  fs-5"></i><span class="fs-6 ms-1">Breakfast</span>
+                        </div>
+                        <div class="mt-3">
+                            <i class="fa-solid fa-champagne-glasses fs-5"></i><span class="fs-6 ms-1">Bar</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="mt-3">
+                            <i class="fa-solid fa-square-parking  fs-5"></i> <span class="fs-6 ms-1">Car Parking</span>
+                        </div>
+                        <div class="mt-3">
+                            <i class="fa-solid fa-utensils  fs-5"></i><span class="fs-6 ms-1">Restaurant</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="mt-3">
+                            <i class="fa-solid fa-wifi  fs-5"></i> <span class="fs-6 ms-1">Free Wifi</span>
+                        </div>
+                        <div class="mt-3">
+                            <i class="fa-solid fa-display  fs-5"></i> <span class="fs-6 ms-1">Front Desk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 mb-2">
+                    <h3 class="fw-bold">ဝင်ရောက်ချိန်-ထွက်ခွာချိန်</h3>
+                    <div class="mt-2">
+                        <i class="fa-regular fa-clock  fs-5" style="color:rgb(255, 150, 4)"></i> <span class="fs-5 ms-2">နေလည် ၂နာရီမှ-နောက်တစ်နေ ၁၂နာရီထိ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-2 mt-5">
+                <div class="img">
+                    <img src="./images/map.png" alt="" class="w-100 h-50 rounded">
+                    <div class="text mt-3">
+                        <i class="fa-solid fa-location-dot fs-6" style="color:rgb(255, 150, 4)"></i> <span class="fs-5 ms-2">တည်နေရာလိပ်စာ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- room detail -->
+    <div class="container mx-5 mb-3 mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-7">
+                <div class="">
+                    <h3 class="fw-bold">အခန်းအမျိူးအစားများ</h3>
+                </div>
+                <div class="">
+                    <div class="card mb-3 mt-3" style="max-width: 680px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./images/Arthawka-Hotel-Bagan-Exterior.jpg" class="img-fluid rounded m-2" alt="..." style="width: 340px;height:280px">
+                            </div>
+                            <div class="col-md-8" id="buttonColor">
+                                <div class="card-body ">
+                                    <h5 class="card-title fw-bold ">Deluxe Room</h5>
+                                    <p><i class="fa-solid fa-bed "></i><span class="ms-1 ">နှစ်ယောက်အိပ်ကုတင် ၁ လုံး</span></p>
+                                    <p><i class="fa-solid fa-user "></i><span class="ms-1 ">လူကြီး ၂ယောက် ကလေး၁ယောက်(အသက်၇နှစ်အောက်)</span></p>
+                                    <h4 style="color:rgb(255, 150, 4) " class="fw-bold">၄၀,၀၀၀ ကျပ်</h4>
+                                    <p><span>၁ရက်စာအတွက် (၁ည / ၁ခန်း)</span></p>
+                                    <p><i class="fa-solid fa-square-check " style="color:  rgb(255, 150, 4)"></i><span class="ms-1 ">အိပ်ရာအပိုထည်မည်</span> <span class="fw-bold ">(၂၀,၀၀၀ ကျပ်)</span></p>
+                                    <div class="row ">
+                                        <div class="col-md-6 ">
+                                            <a href=" " class="text-secondary">အခန်းအသေးစိတ်ကြည်ရန်</a>
+                                        </div>
+                                        <div class="col-md-6 offset-md-0 btn">
+                                            <button class="btn text-white px-2 py-0 ">-</button>
+                                            <button class="btn text-white px-2 py-0">၁</button>
+                                            <button class="btn text-white px-2 py-0 ">+</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 " style="max-width: 680px; ">
+                    <div class="row g-0 ">
+                        <div class="col-md-4 ">
+                            <img src="./images/img-apartments-magda-polychrono-16.jpg " class="img-fluid rounded m-2 " alt="... " style="width: 340px;height:280px ">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body ">
+                                <h5 class="card-title fw-bold ">Family Room</h5>
+                                <p><i class="fa-solid fa-bed "></i><span class="ms-1 ">နှစ်ယောက်အိပ်ကုတင် ၁ လုံး</span></p>
+                                <p><i class="fa-solid fa-user "></i><span class="ms-1 ">လူကြီး ၂ယောက် ကလေး၁ယောက်</span></p>
+                                <h4 style="color: rgb(255, 150, 4) " class="fw-bold">၅၀,၀၀၀ ကျပ်</h4>
+                                <p><span>၁ရက်စာအတွက် (၁ည / ၁ခန်း)</span></p>
+                                <p><i class="fa-solid fa-square-check " style="color: rgb(255, 150, 4) "></i><span class="ms-1 ">အိပ်ရာအပိုထည်မည်</span> <span class="fw-bold ">(၂၀,၀၀၀ ကျပ်)</span></p>
+                                <div class="row ">
+                                    <div class="col-md-6 ">
+                                        <a href=" " class="text-secondary ">အခန်းအသေးစိတ်ကြည်ရန်</a>
+                                    </div>
+                                    <div class="col-md-6 offset-md-0 btn">
+                                        <button class="btn text-white px-2 py-0 ">-</button>
+                                        <button class="btn text-white px-2 py-0">၁</button>
+                                        <button class="btn text-white px-2 py-0 ">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 " style="max-width: 680px; ">
+                    <div class="row g-0 ">
+                        <div class="col-md-4 ">
+                            <img src="./images/Hotel Vola - Saranda 10.jpg " class="img-fluid rounded m-2 " alt="... " style="width: 330px;height:280px ">
+                        </div>
+                        <div class="col-md-8 ">
+                            <div class="card-body ">
+                                <h5 class="card-title fw-bold ">Single Room</h5>
+                                <p><i class="fa-solid fa-bed "></i><span class="ms-1 ">တစ်ယောက်အိပ်ကုတင် ၁ လုံး</span></p>
+                                <p><i class="fa-solid fa-user "></i><span class="ms-1 ">လူကြီး ၁ယောက်</span></p>
+                                <h4 style="color: rgb(255, 150, 4) " class="fw-bold">၃၀,၀၀၀ ကျပ်</h4>
+                                <p><span>၁ရက်စာအတွက် (၁ည / ၁ခန်း)</span></p>
+                                <p><i class="fa-solid fa-square-check " style="color: rgb(255, 150, 4) "></i><span class="ms-1 ">အိပ်ရာအပိုထည်မည်</span> <span class="fw-bold ">(၂၀,၀၀၀ ကျပ်)</span></p>
+                                <div class="row ">
+                                    <div class="col-md-6 ">
+                                        <a href=" " class="text-secondary ">အခန်းအသေးစိတ်ကြည်ရန်</a>
+                                    </div>
+                                    <div class="col-md-6 offset-md-0 btn ">
+                                        <button type="button " class="btn text-white px-3 py-1 " style="background-color: rgb(255, 150, 4) ">ရွေးချယ်မည်</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 ">
+                <div class="card mb-3 mt-5 " style="max-width: 1000px; ">
+                    <h5 class="fw-bolder m-2 mb-2 ">ရွေးချယ်ထားသောအခန်းများ</h5>
+                    <div class="row g-0 ">
+                        <div class="col-sm-12 col-md-6 ">
+                            <img src="./images/Arthawka-Hotel-Bagan-Exterior.jpg " class="img-fluid m-2 rounded " alt="... " style="width: 300px;height:150px; ">
+                        </div>
+                        <div class="col-sm-12 col-md-6 ">
+                            <div class="card-body ">
+                                <div class="d-flex ">
+                                    <h6 class="card-title fw-bold ">Deluxe Room</h6>
+                                    <div class="float-end">
+                                        <button class="btn bg-danger text-white ms-4 fs-6 p-1 ">ဖျက်မည်</button>
+                                    </div>
+                                </div>
+                                <div class="fs-6 ">
+                                    <ul>
+                                        <li>လူကြီး ၂ယောက် ကလေး၁ယောက်(အသက်၇နှစ်အောက်)</li>
+                                        <li>၄၀,၀၀၀ ကျပ်/ ၁ည</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-1 ">
+                        <div class="col-sm-6 col-md-4 ">
+                            <div class="ms-2 fs-6 ">၄၀,၀၀၀ကျပ်x၃ည</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 offset-md-4 total">
+                            <div class=" fs-6 fw-bold ms-2"> ၁၂၀,၀၀၀ ကျပ်</div>
+                        </div>
+                    </div>
+                    <hr class="ms-2 me-2 solid ">
+                    <div class="row g-0 ">
+                        <div class="col-sm-12 col-md-6 ">
+                            <img src="./images/img-apartments-magda-polychrono-16.jpg " class="img-fluid m-2 rounded " alt="... " style="width: 300px;height:150px; ">
+                        </div>
+                        <div class="col-sm-12 col-md-6 ">
+                            <div class="card-body ">
+                                <div class="d-flex ">
+                                    <h6 class="card-title fw-bold ">Family Room</h6>
+                                    <div class="float-end">
+                                        <button class="btn bg-danger text-white ms-4 fs-6 p-1 ">ဖျက်မည်</button>
+                                    </div>
+                                </div>
+                                <div class="fs-6 ">
+                                    <ul>
+                                        <li>လူကြီး ၂ယောက် ကလေး၂ယောက်</li>
+                                        <li>၅၀,၀၀၀ ကျပ်/ ၁ည</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-1 ">
+                        <div class="col-sm-6 col-md-4 ">
+                            <div class="ms-2 fs-6 ">၅၀,၀၀၀ကျပ်x၃ည</div>
+                            <div class="ms-2 fs-6 mt-3 ">အိပ်ရာအပိုထည်ပြီး</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 offset-md-4 total">
+                            <div class=" fs-6 m-0 fw-bold "> ၁၅၀,၀၀၀ ကျပ်</div>
+                            <div class=" fs-6 m-2 mt-3 fw-bold "> ၂၀,၀၀၀ ကျပ်</div>
+                        </div>
+                    </div>
+                    <hr class="ms-2 me-2 dashed ">
+                    <h5 class="fw-bolder m-2 mb-2 ">အနှစ်ချုပ်</h5>
+                    <div class="row mt-1 ">
+                        <div class="col-sm-6 col-md-6 ">
+                            <div class="ms-2 fs-6 mt-2">Duluex Room(၃ည)</div>
+                            <div class="ms-2 fs-6 mt-3 ">Family Room(၃ည+အိပ်ရာအပို)</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 offset-md-2 total">
+                            <div class=" fs-6 m-1 fw-bold ms-1"> ၁၂၀,၀၀၀ ကျပ်</div>
+                            <div class=" fs-6 m-2 mt-3 fw-bold "> ၂၀,၀၀၀ ကျပ်</div>
+                        </div>
+                    </div>
+                    <hr class="ms-2 me-2 solid ">
+                    <div class="row mt-1 ">
+                        <div class="col-sm-6 col-md-6 ">
+                            <div class="ms-2 fs-6 mt-2 ">စုစု‌ပေါင်းကျသင်ငွေ</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 offset-md-2 total">
+                            <div class=" fs-6 m-1 fw-bold ms-1"> ၂၉၀,၀၀၀ ကျပ်</div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-1 mb-2">
+                        <div class="col-md-12 btn">
+                            <div class="d-grid">
+                                <button class="btn ms-2 me-2 text-white" type="button">အတည်ပြုမည်</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm " crossorigin="anonymous "></script>
+
+</html>
